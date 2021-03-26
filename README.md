@@ -1,6 +1,6 @@
 # Autnomous_Robot-Pick_and_Place_System
 
-###vIntroduction
+### Introduction
 
 This is the final project of the RBE3001 course. The main goal of the project was to build an autonomous sorting system. The robot had to utilize computer vision to detech and locate the different color balls within the robot's workspace, grab the balls by controlling the robot's end-effector tool and place them at a pre-determined position. The robotic arm had a 3 degree-of-freedom (DOF) motion. The locations of the balls in the robot's workspace was captured by the camera in pixel coordinates. To utilize these locations, the team had to calculate the transformations to turn the pixel values into the coordinates in reference to the robot's baseframe. The team then had to sort the balls using a motion trajectory planner and the gripper arm to manipulate them to their designated locations.
 ### Workflow:
